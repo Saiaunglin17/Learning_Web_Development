@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    font-family: "Outfit", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card{
+        background-color: hsl(216, 50%, 16%);
+        width: 320px;
+        padding: 25px;
+        border-radius: 15px;
+        .active{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .eqi{
+                width: 100%;
+                height: 100%;
+                border-radius: 15px;
+            }
+            .eye{
+                position: absolute;
+                width: 20%;
+                height: 20%;
+                display: none;
+             }
+
+             &:hover{
+               
+                .eye{
+                    display: flex;
+                }
+                .eqi{
+                   
+                }
+
+                &::before{
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                    background-color: rgba(0, 255, 247, 0.7);
+                    border-radius: 15px;
+                 }
+             }
+             
+         }
+         
+        h2{
+            margin: 20px 0;
+            color: hsl(0, 0%, 100%);
+
+            &:hover{
+                color: hsl(178, 100%, 50%);
+            }
+        }
+        p{
+            color: hsl(215, 51%, 70%);
+            font-size: 18;
+        }
+        .text{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+            .eth, .clock{
+                
+                align-items: center;
+                display: flex;
+                .eqi{
+
+                }
+                p{
+                padding-left: 5px;
+                }
+            }
+            
+            .eth{
+                p{
+                    color: cyan;
+                }
+            }
+            
+        }
+        hr{
+            border-color: hsl(215, 32%, 27%);
+            border-style: solid;
+            margin: 20px 0;
+        }
+        .profile{
+            display: flex;
+                height: 50px;
+                align-items: center;
+            img{
+                height: 40px;
+                width: 40px;
+                border: 2px solid white;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            p{
+                
+                span{
+                    color: #fff;
+
+                    &:hover{
+                        color: hsl(178, 100%, 50%);
+                    }
+                }
+            }
+        }
+    }
+}

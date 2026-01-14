@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="myImg" src="https://images.pexels.com/photos/28164807/pexels-photo-28164807/free-photo-of-the-blue-water-and-white-sand-beach-in-zakynthos-greece.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    <button onclick="change()">Change Image</button>
+
+    <script>
+        function change(){
+            let orgImg = document.getElementById("myImg");
+            orgImg.src = "https://images.pexels.com/photos/220413/pexels-photo-220413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+    </script>
+</body>
+</html>

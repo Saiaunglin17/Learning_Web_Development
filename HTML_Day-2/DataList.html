@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="Fruits">Choose your Fruits: </label>
+    <input list="Fruits-choice" name="Fruits" id="Fruits" />
+
+    <datalist id="Fruits-choice">
+      <option value="Apple">Apple</option>
+      <option value="Banana">Banana</option>
+      <option value="Mango">Mango</option>
+    </datalist>
+    <br />
+
+    <label for="TextArea">TextArea</label>
+    <textarea name="TextArea" id="TextArea" rows="6" cols="45">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, sed ab! Laudantium, aspernatur? Ipsa ad doloremque magni, harum laboriosam cumque minima repudiandae porro, veritatis veniam excepturi facilis, optio sapiente obcaecati!</textarea
+    >
+    <br />
+
+    <label for="Select">Select</label>
+
+    <select name="Select" id="Select">
+      <option value="">--Choose an Option--</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+    <br />
+
+    <form>
+      <fieldset>
+        <legend>Fieldset Options</legend>
+
+        <input type="radio" id="Option1" name="Fieldset" value="1" />
+        <label for="Option1">Option1</label>
+
+        <input type="radio" id="Option2" name="Fieldset" value="2" />
+        <label for="Option2">Option2</label>
+
+        <input type="radio" id="Option3" name="Fieldset" value="3" />
+        <label for="Option3">Option3</label>
+      </fieldset>
+    </form>
+  </body>
+</html>

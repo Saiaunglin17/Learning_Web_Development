@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.background .main-container {
+  width: 60%;
+  height: 50vh;
+  background-color: #fff;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 3px 2px 15px black;
+}
+.background .main-container .result {
+  width: 50%;
+  height: 100%;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  padding: 30px;
+  border-radius: 20px;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.background .main-container .result h3 {
+  margin-top: -40px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.background .main-container .result .circle {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  background-image: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.background .main-container .result .circle p {
+  color: rgba(255, 255, 255, 0.8);
+}
+.background .main-container .result .text {
+  color: #fff;
+}
+.background .main-container .result .text h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.background .main-container .result .text p {
+  margin-top: 10px;
+  font-size: 10px;
+  line-height: 2;
+  text-align: center;
+}
+.background .main-container .right-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 20px;
+}
+.background .main-container .right-container h4 {
+  padding: 10px;
+}
+.background .main-container .right-container .box {
+  padding: 15px 8px;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  margin: 8px 0;
+  justify-content: space-between;
+}
+.background .main-container .right-container .box .icon-text {
+  display: flex;
+  align-items: center;
+}
+.background .main-container .right-container .box:nth-child(2) {
+  color: hsl(0, 100%, 67%);
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+.background .main-container .right-container .box:nth-child(3) {
+  color: hsl(39, 100%, 56%);
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+.background .main-container .right-container .box:nth-child(4) {
+  color: hsl(166, 100%, 37%);
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+.background .main-container .right-container .box:nth-child(5) {
+  color: hsl(234, 85%, 45%);
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+.background .main-container .right-container .box p {
+  margin-left: 10px;
+  font-size: 10px;
+}
+.background .main-container .right-container .box span {
+  font-weight: bold;
+}
+.background .main-container .right-container .box img {
+  display: flex;
+  width: 15px;
+}
+.background .main-container .right-container .button {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+.background .main-container .right-container .button input {
+  color: #fff;
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+  width: 150px;
+  padding: 7px 0;
+  border-radius: 30px;
+}
+
+@media (max-width: 374px) {
+  .background {
+    background-color: transparent;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .background .main-container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .background .main-container .result {
+    width: 100%;
+  }
+  .background .main-container .right-container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+}/*# sourceMappingURL=styles.css.map */

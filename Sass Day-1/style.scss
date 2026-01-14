@@ -1,0 +1,20 @@
+@import "./variable";
+
+    .card-container{
+        .card{
+            h1{
+                background-color: $mainColor;
+            }
+            p{
+                color: $bgColor;
+            }
+            button{
+                background-color: $buColor;
+            }
+        }
+    }
+
+    button{
+        background-color: $bgColor;
+    }
+

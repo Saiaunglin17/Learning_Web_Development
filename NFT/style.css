@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .card {
+  background-color: hsl(216, 50%, 16%);
+  width: 320px;
+  padding: 25px;
+  border-radius: 15px;
+}
+.container .card .active {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .card .active .eqi {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.container .card .active .eye {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  display: none;
+}
+.container .card .active:hover .eye {
+  display: flex;
+}
+.container .card .active:hover::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 255, 247, 0.7);
+  border-radius: 15px;
+}
+.container .card h2 {
+  margin: 20px 0;
+  color: hsl(0, 0%, 100%);
+}
+.container .card h2:hover {
+  color: hsl(178, 100%, 50%);
+}
+.container .card p {
+  color: hsl(215, 51%, 70%);
+  font-size: 18;
+}
+.container .card .text {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.container .card .text .eth, .container .card .text .clock {
+  align-items: center;
+  display: flex;
+}
+.container .card .text .eth p, .container .card .text .clock p {
+  padding-left: 5px;
+}
+.container .card .text .eth p {
+  color: cyan;
+}
+.container .card hr {
+  border-color: hsl(215, 32%, 27%);
+  border-style: solid;
+  margin: 20px 0;
+}
+.container .card .profile {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+.container .card .profile img {
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.container .card .profile p span {
+  color: #fff;
+}
+.container .card .profile p span:hover {
+  color: hsl(178, 100%, 50%);
+}/*# sourceMappingURL=style.css.map */

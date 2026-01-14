@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      span {
+        width: 100px;
+        height: 100px;
+        background-color: chartreuse;
+        display: block;
+        /* transition: width 3s; */
+        transition-property: width;
+        transition-duration: 3s;
+        /* transition-timing-function: ease; */
+        /* transition-timing-function: linear; */
+        /* transition-timing-function: ease-in; */
+        /* transition-timing-function: ease-out; */
+        /* transition-timing-function: ease-in-out; */
+        /* transition-timing-function: steps(3, start); */
+        /* transition-timing-function: cubic-bezier(0.1,0.7,1.0,0.1); */
+      }
+      span:hover {
+        width: 500px;
+        background-color: cornflowerblue;
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+      }
+      .ani {
+        background-color: blueviolet;
+        animation-name: rotate;
+        animation-duration: 4s;
+        animation-timing-function: cubic-bezier(0.75, 0.82, 0.165, 1);
+        animation-delay: (start animation after 5s);
+        animation-fill-mode: forwards;
+        /* animation-iteration-count: infinite; 
+        animation-direction: alternate;  */
+        animation-play-state: paused;
+      }
+      .ani:hover {
+        animation-play-state: running;
+      }
+
+      @keyframes rotate {
+        0% {
+          transform: rotate(0);
+        }
+        50% {
+          background-color: coral;
+        }
+        100% {
+          transform: rotate(360deg);
+          background-color: forestgreen;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <span></span>
+    <div class="ani"></div>
+  </body>
+</html>

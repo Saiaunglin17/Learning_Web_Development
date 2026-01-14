@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div {
+            background-color: blue;
+        } */
+
+        /* div > p {
+            background-color: aliceblue;
+        } */
+
+        div + p {
+            background-color: chartreuse;
+        }
+
+        div ~ p {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <p>P1 from Outside Above</p>
+    <p>P2 from Outside Above</p>
+    <div>
+        <p>P1 from Div</p>
+        <p>P2 from Div</p>
+        <section>
+            <p>P1 from Section</p>
+            <p>P2 from Section</p>
+        </section>
+    </div>
+        <p>P1 from Outside Under</p>
+        <p>P2 from Outside Under</p>
+</body>
+</html>

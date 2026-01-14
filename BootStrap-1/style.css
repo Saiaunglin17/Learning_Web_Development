@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-image: linear-gradient(#141e30, #243a54);
+  min-height: 100vh;
+}
+
+.custom-shape-divider-bottom-1727515084 {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1727515084 svg {
+  position: relative;
+  display: block;
+  width: calc(168% + 1.3px);
+  height: 10px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1727515084 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.img-container .laptop-img {
+  border-radius: 28% 72% 41% 59%/19% 18% 82% 81%;
+  width: 90%;
+}
+
+.profile {
+  height: 70vh;
+}
+.profile .profile-img {
+  max-width: 200px;
+  height: auto;
+  border: 10px solid #52c6a0;
+  transform: skewY(5deg);
+  box-shadow: -8px 8px 0px, -10px 10px 20px;
+}
+
+.card-img {
+  background-image: url("/BootStrap-1/pexels-photo-347141.jpeg");
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+.card-img .card {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(0.3rem);
+          backdrop-filter: blur(0.3rem);
+  border: none;
+}
+.card-img .card i {
+  font-size: 40px;
+}
+
+.team-members .item .card-container .solid-2 {
+  height: 45vh;
+  min-width: 100%;
+  background: linear-gradient(60deg, #fdd24d 0%, #fdd24d 50%, #92e8d2 50%, #92e8d2 100%);
+}
+.team-members .item .card-container .solid-2 .profile-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  border-radius: 50%;
+  inset: 0;
+  margin: auto;
+  z-index: 1;
+  border: 2px solid pink;
+}
+.team-members .item .card-container .solid-2 .solid-1 {
+  bottom: 0;
+  width: 100%;
+  height: 22.5vh;
+  background-color: white;
+  border-radius: 64px 64px 0px 0px;
+}
+.team-members .item .card-container .solid-2 .solid-1 p {
+  margin-top: 3rem;
+}
+
+footer .row .logo {
+  display: flex;
+}
+footer .row .logo a {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 10px;
+  text-decoration: none;
+}
+footer .row .logo a:nth-child(1) {
+  background-color: #3b5998;
+  color: #fff;
+}
+footer .row .logo a:nth-child(2) {
+  background-color: #1ea1f1;
+  color: #fff;
+}
+footer .row .logo a:nth-child(3) {
+  background-color: #784f99;
+  color: #fff;
+}
+footer .row .logo a:nth-child(4) {
+  background-color: #2578af;
+  color: #fff;
+}
+
+@media (min-width: 991px) {
+  .img-container .laptop-img {
+    width: 50%;
+  }
+  .profile {
+    margin-top: -50px;
+  }
+  .profile .profile-img {
+    max-width: 250px;
+  }
+  .card-img {
+    height: 60vh;
+  }
+  nav {
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 55vw;
+        height: 80vh;
+        position: relative;
+        border-radius: 30px;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 50px;
+      }
+      .container img {
+        width: inherit;
+        height: inherit;
+      }
+      .container .detail {
+        background-color: rgba(73, 190, 62, 0.8);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .container .detail h2 {
+        padding: 10px;
+        text-align: center;
+        color: #fff;
+      }
+
+      p {
+        text-align: center;
+        margin-bottom: 8px;
+        color: #fff;
+      }
+
+      .lorem {
+        height: 1000px;
+        background-color: cyan;
+        color: darkred;
+        text-align: initial;
+      }
+
+      button {
+        position: fixed;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top" class="container">
+      <img
+        src="https://i.pinimg.com/564x/e0/b8/5c/e0b85ca7e1132d57523244f699a60dc5.jpg"
+        alt=""
+      />
+
+      <div class="detail">
+        <h2>Heading 2</h2>
+        <p>Paragraph 1</p>
+      </div>
+    </div>
+    <a href="#top">
+      <button>Go to Top</button>
+    </a>
+    <p class="lorem">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officia eius
+      ab repellat distinctio exercitationem non praesentium nam sapiente
+      doloremque minima maiores dignissimos iste tempora officiis odio, optio
+      consequuntur. Sit!
+    </p>
+  </body>
+</html>

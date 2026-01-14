@@ -1,0 +1,47 @@
+<html> //opening tag
+</html> //closing tag
+
+<html></html> //html element
+<title></title> //title element
+<br /> self closing tag (empty tag)
+
+Lorem = Sample Text (ALT Z to adjust the words)
+Attribute = <h1 style=""></h1>
+
+video   = <video controls src=""></video>
+        = <video control width="" height""></video>
+        = <video controls poster></video>
+        = <video controls autoplay muted loop></video>
+
+a href  = target="_blank" (open new tab)
+        = index.html (open index.html file in the folder)
+
+pre = Write with your own space
+code = Write like the computer Text
+
+Unordered List  = type='' (have circle, square, none)
+Ordered List    = type='' (have A,a,I,i)
+                = start='' (start from that number or alphabet but can  only type numbers )
+Description List= dt (title)
+                = dd (description)
+
+Block element   = take all the space for the whole line
+Inline element  = take the space only to the length of the text
+
+Input Type      = type="email"
+                = type="text"
+                = type="password" (cannot see the text)
+
+                = label for="name"
+                = input for="name" (label for and input for should have the same name)
+
+Global Attribute        = hidden (hide)
+                        = contenteditable (able to edit content in the web page)
+                        = title (when pointing the text in a web page you will see the title)
+        spellcheck      = "true" (checking the spelling) "false" (don't check the spelling)
+
+        iframe  = copy embed code
+
+Shortcut: html:5 (create the whole html table)
+        : li*10 (create 10 list)
+        : Lorem (sample text)

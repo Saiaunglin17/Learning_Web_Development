@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1,
+      a {
+        text-align: center;
+        background-color: peachpuff;
+      }
+      h1 {
+        text-transform: lowercase;
+      }
+      a {
+        display: block;
+        text-decoration: none;
+      }
+      /* p {
+        text-indent: 20px;
+        text-align: justify;
+        letter-spacing: 3px;
+        word-spacing: 20px;
+      } */
+      .p1 {
+        background-color: yellow;
+        white-space: pre;
+      }
+      .p2 {
+        background-color: blueviolet;
+        white-space: nowrap;
+      }
+      .p3{
+        border: 1px solid black;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 100px;
+      }
+      .word_break{
+        width: 200px;
+        border: 1px solid black;
+      }
+      .p4{
+        word-break:keep-all;
+      }
+      .p5{
+        word-break: break-all;
+      }
+      .p6{
+        word-wrap: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>heAding 1</h1>
+    <a href="#">Link</a>
+    <p>
+      
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus libero
+      nisi sit alias laborum, facilis labore fuga deserunt? Harum ut labore
+      molestiae recusandae consequatur cumque aliquam maxime aperiam, eum odio.
+    </p>
+    <p class="p1">
+      This is some text. This is some text. This is some text. This is some
+      text. This is some text. This is some text. This is some text. This is
+      some text. This is some text. This is some text. This is some text. This
+      is some text.
+    </p>
+    <p class="p2">
+      This is some text. This is some text. This is some text. This is some
+      text. This is some text. This is some text. This is some text. This is
+      some text. This is some text. This is some text. This is some text. This
+      is some text.
+      <p class="p3">This is some text. This is some text. This is some text.</p>
+    </p>
+    <p class="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi rerum molestias magni, placeat facere necessitatibus dignissimos sed labore. Ipsum vero dolores quae fugiat dolor deleniti explicabo dignissimos nisi odit ratione.
+    </p>
+    <p class="p4 word_break">asdfasfasfasfafasfasfafdasfas aafdafsfaf aadfasasafsf adddad</p>
+    <p class="p5 word_break">adfasfasfasfdasfasfdasfasdfasfasdfasfasfasf asdf asdf asf asf as asf asfasfasfasdfasf</p>
+    <p class="p6 word_break">adsfdddddddddafasdfasf aadasddd dddddddddddddddddd adasfasfcx asdf acv</p>
+
+  </body>
+</html>
